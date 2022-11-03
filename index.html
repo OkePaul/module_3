@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food, LLC</title>
+
+    <!-- <link rel="stylesheet" href="llc.css"> -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="nav.css">
+    
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <h1 class="logo">Food, LLC</h1>
+
+            <nav class="site-nav">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-home site-nav--icon"></i>Home</a>
+                    </li>
+                    <li>
+                        <a href="#services">
+                            <i class="fa fa-briefcase site-nav--icon"></i>Our Services</a>
+                    </li>
+                    <li>
+                        <a href="products.html">
+                            <i class="fa fa-product-hunt site-nav--icon"></i>Our Products</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <i class="fa fa-envelope site-nav--icon"></i>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="menu-toggle">
+                <div class="hamburger"></div>
+            </div>
+        </div>
+    </header>
+
+
+    
+
+   
+    <div class="content">
+        <h1>Our Menu</h1>
+        <div class="cont">
+            <h3>Chicken</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iste, culpa, tenetur enim provident perspiciatis, odio autem cum quod possimus architecto accusamus labore. Autem, quibusdam error. Eius eos architecto accusamus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, dolore maiores, architecto, officiis at atque voluptates tenetur distinctio ipsa aut voluptas autem dolorem tempore obcaecati. Quidem illo voluptatum excepturi ipsa?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo, sapiente. Eaque accusantium officiis voluptates fugiat provident molestiae! Voluptatem, id at corporis a quidem, temporibus molestias, impedit aut odit cumque quaerat.
+            </p>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+        $('.menu-toggle').click(function () {
+            $('.site-nav').toggleClass('site-nav--open', 500);
+            $(this).toggleClass('open');
+        })
+    </script>
+</body>
+</html>
